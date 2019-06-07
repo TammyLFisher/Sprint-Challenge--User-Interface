@@ -77,7 +77,6 @@ header{
 	align-items: center;
     word-spacing: 70px;
     margin-top: 10px;
-	padding-bottom: 5px;
 }
 .logo{
     margin: 50px;
@@ -107,6 +106,7 @@ nav a:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -184,6 +184,17 @@ nav a:hover{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.image1{
+    height: 40%;
+    width: 100%;
+    margin-top: -3em;
+    padding-bottom: 10px;
+}
+.about-img{
+    height: 450px;
+    width: 100%;
+    padding-bottom: 15px;
+}
 
 footer {
     width: 100%;
@@ -202,4 +213,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.middle-content1{
+    margin-bottom: 40px;
+}
+.text-container1{
+    display: flex;
+    flex-wrap: flex center;
+    vertical-align: center;
+}
+.paragraphs{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	background: white;
+    margin: 5px;
+    padding-bottom: 100px;
+	height: 400px;
+    width: 600px;
+    border-bottom: 1px dashed black;
+}
+.paragraphs{
+	display: flex;
+}
+.p{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	border: 1p transparent solid;
+	width: 400px;
+	margin-right: 55px;
+	padding: 0 10px;
+}
+.paragraphs button{
+    vertical-align: center;
+    border-radius: 5px;
+	height: 28px;
+	width: 120px;
+	padding: 5px 15px;
+	background: white;
+	border: 1px black solid;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.paragraphs button:hover {
+	background: crimson;
+	color: white;
+}
+.bottom-content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
