@@ -195,6 +195,11 @@ nav a:hover{
     width: 100%;
     padding-bottom: 15px;
 }
+.blog-image{
+    height: 175px;
+    width: 100%;
+    padding-bottom: 15px;
+}
 
 footer {
     width: 100%;
@@ -268,11 +273,3 @@ footer nav a {
     padding-bottom: 20px;
 }
 
-
-.bottom-content1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
