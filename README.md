@@ -50,7 +50,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
-* GIT  is a valuable tool for developers because it's a way to use the computers without using the GUI, it allows us to create, utilize, read, update, delete files as well as execute operational commands all on one terminal without having to go through the GUI. The terminal allows us to work on projects great or small, and store them on our machines, and it also allows us to share our files with others on our team through GitHub.
+* GIT  is a valuable tool for developers because it's a way to use the computers without using the GUI, it allows us to create, utilize, read, update, delete files as well as execute operational commands all on one terminal without having to go through the GUI. The terminal allows us to work on projects great or small, and store them on our machines, and it also allows us to share our files with others on our team through GitHub.com.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
