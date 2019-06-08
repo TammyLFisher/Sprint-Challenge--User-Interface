@@ -267,3 +267,12 @@ footer nav a {
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+
+
+.bottom-content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
