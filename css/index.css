@@ -274,10 +274,30 @@ footer nav a {
     display: flex;
     flex-direction: column;
     align-content: center;
-    vertical-align: center;
-
+}
+.animations{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
 #example{
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background: blue;
+    margin: 10px;
+}
+#example:hover{
+    transform: rotateY(180deg);
+}
+#example1{
     width: 100px;
     height: 100px;
     color: white;
@@ -291,8 +311,25 @@ footer nav a {
     background: purple;
     margin: 10px;
 }
-#example:hover{
+#example1:hover{
     transform: rotate(180deg);
+}
+#example2{
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background: red;
+    margin: 10px;
+}
+#example2:hover{
+    transform: rotate(90deg);
 }
 h4{
     font-size: 24px;
