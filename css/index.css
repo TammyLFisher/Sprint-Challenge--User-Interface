@@ -82,8 +82,7 @@ header{
     margin: 50px;
     margin-left: -.2em;
     padding-bottom: 19px;
-    padding-right: 20px;
-    
+    padding-right: 20px;   
 }
 nav a{
 	font-size: 14px;  
@@ -264,6 +263,56 @@ footer nav a {
 .paragraphs button:hover {
 	background: crimson;
 	color: white;
+}
+.blog-content{
+    background-image:url(https://i.imgur.com/uUEu6EY.png);
+    background-color: lightpink;
+    border: 12px solid silver;
+}
+h4{
+    font-size: 24px;
+    font-weight: bolder; 
+}
+.article-title{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+.article-title:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+.author{
+    font-size: 10px;
+    text-align: center;
+    color: blue;
+    padding-bottom: 10px;
+}
+.introduction{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid black;
+
+}
+.text-container2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+.text-image1{
+    height: 200px;
+    width: 350px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .bottom-content1 {
     display: flex;
