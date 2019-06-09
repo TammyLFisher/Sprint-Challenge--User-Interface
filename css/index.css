@@ -391,4 +391,63 @@ h4:hover, .article-title:hover{
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+.contact-us{
+    display: flex;
+    flex-direction: column;
+}
 
+input[type=text], select {
+  width: 80%;
+  padding: 13px;
+  margin: 8px;
+  display: inline-block;
+  border: 3px solid cornflowerblue;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+    width: 80%;
+    padding: 13px;
+    margin: 8px 43px;
+    display: inline-block;
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+#textarea {
+    width: 80%;
+    height: 200px;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background-color:cornsilk;
+    resize: none;
+  }
+
+input[type=submit] {
+  width: 20%;
+  background-color: forestgreen;
+  color: white;
+  padding: 14px;
+  margin: 10px 300px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkgreen;
+}
+@media screen and (max-width: 900px) {
+     input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+.contact{
+  border-radius: 10px;
+  background-color: seashell;
+  padding: 20px;
+}
