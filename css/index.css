@@ -439,10 +439,29 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: darkgreen;
 }
-@media screen and (max-width: 900px) {
-     input[type=submit] {
-      width: 100%;
-      margin-top: 0;
+@media screen and (max-width: 992px){
+	.flex-container nav a {
+		overflow: hidden;
+		background-color:#420a09;
+	}
+	.flex-container nav a {
+		float: right;
+		display: block;
+		color: #bf1e01;
+		text-align: center;
+		padding: 10px 15px;
+        text-decoration: none;
+    }
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        background-color: #096911;
+    }
+}
+@media screen and (max-width: 600px) {
+	.flex-container nav a {
+		float: none;
+		width: 100%;
     }
 }
 
