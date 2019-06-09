@@ -197,6 +197,7 @@ nav a:hover{
 .blog-image{
     height: 175px;
     width: 100%;
+    margin-top: -3em;
     padding-bottom: 15px;
 }
 
@@ -269,9 +270,34 @@ footer nav a {
     background-color: lightpink;
     border: 12px solid silver;
 }
+.top-content1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    vertical-align: center;
+
+}
+#example{
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background: purple;
+    margin: 10px;
+}
+#example:hover{
+    transform: rotate(180deg);
+}
 h4{
     font-size: 24px;
     font-weight: bolder; 
+    text-decoration: none;
 }
 .article-title{
     font-size: 14px;
@@ -280,7 +306,7 @@ h4{
     text-decoration: none;
     padding-bottom: 8px;
 }
-.article-title:hover{
+h4:hover, .article-title:hover{
     text-decoration: underline;
     color: red;
     cursor: pointer;
@@ -290,6 +316,15 @@ h4{
     text-align: center;
     color: blue;
     padding-bottom: 10px;
+    text-decoration: none;
+}
+.author:hover{
+    text-decoration: underline;
+    color: purple;
+    cursor: pointer;
+}
+.middle-content2{
+    margin-bottom: 20px;
 }
 .introduction{
     font-size: 18px;
@@ -300,13 +335,11 @@ h4{
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 4px solid black;
-
 }
 .text-container2{
     display: flex;
     flex-direction: row;
     padding: 10px;
-
 }
 .text-image1{
     height: 200px;
